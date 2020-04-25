@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #003366;
+  font-family:courier;
+  padding: 30px;
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 850px;
+  background: #006699;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: verdana;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 850px;
+  background-color: #425757;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+a:link {
+    color: white; 
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+     color: white;
+}
+
+
+img {
+      max-height: 100%;
+      max-width: 100%;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>𝚃𝚊𝚜𝚑𝚊 𝙲𝚘𝚋𝚋𝚜</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Home page</a></li>
+      <li><a href="#">About the artist</a></li>
+      <li><a href="#">Top albums</a></li>
+      <li><a href="#">media</a></li>
+      <li><a href="#">tour</a></li>
+       
+    </ul>
+     <img src="https://cont-2.p-cdn.us/images/public/int/6/9/6/8/00602577008696_1080W_1080H.jpg"/>
+    
+  </nav>
+  
+  <article>
+    <img src="https://ryman.com/wp-content/uploads/sites/9/2020/03/Tasha_1200x628.jpg"/>
+    
+<p> Natasha Tameika Cobbs, better known as Tasha Cobbs, is an american gospel artist and songwriter. Tasha was born July 7, 1981 in Jesup, Ga. Her parents; Bishop Fritz Cobbs and lady Bertha Cobbs raised her in a church called Jesup New Life Ministries. There her parents led the services, and These services are what got Tasha started in singing from a child into her adult years.  Later as an adult she became Worship leader at the church.</p> 
+ 
+ <p> In 2013, Tasha released her debut album titled 𝘎𝘳𝘢𝘤𝘦 which reached top 10 on billboards gospel album charts. Later that year she won a grammy for best gospel music performance. However, Tasha wasn't just an artist, she was also an influencer with a passion for mentorship. Resulting from this passion came the launch of The iLead Escape Program which is an global ministry mentorship program. This program helps thousands of people with the execution of their talents. In addition to this oprogram she also released her first book titled WORSHIP 101.  </p>
+ 
+
+<p> In a short amount of time Tasha's career became very successful and she was able to accomplish lots of great things which include: winning a Grammy award, 3 Dove awards, and 3 Steller awards. Church was still something very important to Tasha, there she met her then boyfriend Kenneth Leonard, Back in 2009. Her boyfriend was also in the music industry as a music producer. They  dated for several years and both had lots of passion for music. In March of 2017, they decided to tie the knot. Since that day the two continue to make beautiful music together and raise a family.</p>
+
+  </article>
+  
+</section>
+
+<footer>
+  <i> Copyright &copy; 2020 Destiny Wilson. All rights reserved. </i>
+</footer>
+
+</body>
+</html>
